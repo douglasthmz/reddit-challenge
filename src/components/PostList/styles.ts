@@ -22,7 +22,8 @@ export const ButtonRow = styled.div`
   display: flex;
   flex-direction: row;
   flex: 1;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   margin: 1px auto;
 `;
 

@@ -1,44 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Demonstração do projeto em: [https://reddit-front-challenge.netlify.app/](https://reddit-front-challenge.netlify.app/)**
 
-## Available Scripts
+## Instruções para rodar o projeto localmente:
 
-In the project directory, you can run:
+Para conseguir rodar o projeto, certifique-se que sua máquina possui o [Node](https://nodejs.org/) instalado, assim como o gerenciador de pacotes [Yarn](https://yarnpkg.com/).<br />
+Primeiramente, deve-se clonar o repositório para sua máquina:
+
+### `git clone https://github.com/douglasthmz/reddit-challenge.git`
+
+Depois de clonado, basta navegar para a pasta `reddit-challenge` e rodar o seguinte comando:
+
+### `yarn`
+
+Com este comando, as dependências necessárias para rodar o projeto estarão sendo baixadas.<br />
+Com o as pendências baixadas, basta rodar o seguinte comando:
 
 ### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Com isto, o projeto rodará no endereço [http://localhost:3000/](http://localhost:3000/).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Sobre o projeto:
 
-### `yarn test`
+O projeto foi desenvolvido utilizando **[React](https://pt-br.reactjs.org/)**, e para começar o projeto foi utilizado o boiler-plate **[create-react-app](https://create-react-app.dev/)**.<br />
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O código está em **[TypeScript](https://www.typescriptlang.org/)**, que além dos benefícios da Tipagem, também traz um poder de inteligência considerável quando usado juntamente com o **[Visual Studio Code](https://code.visualstudio.com/)**.
 
-### `yarn build`
+Para o consumo da API do **[Reddit](https://www.reddit.com/dev/api/)**, foi utilizada a biblioteca **[axios](https://github.com/axios/axios)**, que tem um setup bem simples, com suporte à sintaxe `async/await`.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para a estilização do projeto, foi escolhido o **[styled-components](https://styled-components.com/)**, que traz a manipulação de todo o CSS dentro dos arquivos Javascript ou Typescript, tornando a componentização do estilo mais simples de ser feita, e sem poluir as tags dentro `JSX/TSX` com classes e id's.
